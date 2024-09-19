@@ -21,7 +21,7 @@
                     <div>
                         <div class="stats shadow">
                             <div class="stat">
-                                <div class="stat-value">9400</div>
+                                <div id="current-amount" class="stat-value">9400</div>
                                 <div class="stat-desc">Available Balance</div>
                             </div>
                         </div>
@@ -39,22 +39,20 @@
                                 <label class="label">
                                     <span class="label-text">Amount</span>
                                 </label>
-                                <input type="number" placeholder="Amount" class="input input-bordered" required />
+                                <input id="add-amount" type="number" placeholder="Amount" class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
                                     <span class="label-text">Pin</span>
                                 </label>
-                                <input type="password" placeholder="Password" class="input input-bordered "
-                                    autocomplete="of" required />
+                                <input id="pin-btn" type="password" placeholder="Password" class="input input-bordered "
+                                    autocomplete="on" required />
                             </div>
                             <div class="form-control mt-6">
-                                <button class="btn btn-primary">Login</button>
+                                <button id="add-btn" class="btn btn-primary">Login</button>
                             </div>
                         </form>
                     </div>
-                    <!-- add money end -->
-                    <!-- cash out from end-->
                 </div>
             </div>
         </div>
