@@ -29,11 +29,11 @@
                     <div class="divider"></div>
 
                     <!-- user button -->
-                    <button class="btn btn-lg mb-5">Add Money</button>
-                    <button class="btn btn-lg ">Cash Out</button>
+                    <button id="btn-show-add-money" class="btn btn-lg mb-5">Add Money</button>
+                    <button id="btn-show-cash-out" class="btn btn-lg ">Cash Out</button>
                     <div class="divider"></div>
                     <!-- add money start -->
-                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div id="add-money-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -55,7 +55,7 @@
                     </div>
                     <!-- add money section end -->
                      <!-- cash out section start -->
-                     <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                     <div id="cash-out-form" class=" hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -81,6 +81,7 @@
         </div>
     </main>
     <script src="./js/home.js"></script>
+    <script src="./js/fetures.js"></script>
 </body>
 
 </html>
